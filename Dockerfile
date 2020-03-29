@@ -14,7 +14,8 @@ RUN apk add --update \
   python \
   make \
   bash \
-  py-pip
+  py-pip \
+  git
 
 # See https://github.com/nodejs/docker-node/issues/603
 # ENV NPM_CONFIG_PREFIX=/home/node/.npm-global
